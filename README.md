@@ -378,7 +378,7 @@ A dedicated second dashboard covering six internship-assigned analytical tasks, 
 
 **Dashboard 1 — Core Analytics**
 
-![Dashboard 1](assets/dashboard1_preview.png)
+![Dashboard 1](assets/dashboard_preview.png)
 
 
 **Dashboard 2 — Internship Tasks (Business Performance)**
