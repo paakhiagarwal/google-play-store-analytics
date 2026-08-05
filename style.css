@@ -1,1 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+}
 
+body{
+    background:#081321;
+    color:#ffffff;
+    line-height:1.7;
+}
+
+.hero{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.banner{
+    width:95%;
+    max-width:1100px;
+    border-radius:15px;
+    box-shadow:0 10px 40px rgba(0,0,0,.45);
+    margin-bottom:30px;
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:15px;
+    color:#4da3ff;
+}
+
+.subtitle{
+    max-width:900px;
+    margin:auto;
+    font-size:1.2rem;
+    color:#d6d6d6;
+}
+
+section{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+}
+
+section h2{
+    font-size:2rem;
+    margin-bottom:25px;
+    color:#4da3ff;
+    border-left:6px solid #4da3ff;
+    padding-left:15px;
+}
+
+.about p{
+    margin-bottom:20px;
+    color:#dddddd;
+    text-align:justify;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#10243c;
+    padding:30px;
+    border-radius:18px;
+    text-align:center;
+    transition:.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    font-size:2rem;
+    color:#55b8ff;
+}
+
+.card p{
+    margin-top:10px;
+}
+
+.preview{
+    display:grid;
+    gap:30px;
+}
+
+.preview img{
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.45);
+    transition:.35s;
+}
+
+.preview img:hover{
+    transform:scale(1.02);
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    background:#1d8fff;
+    color:white;
+    text-decoration:none;
+    padding:16px 30px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#0c6bd6;
+    transform:translateY(-4px);
+}
+
+ul{
+    padding-left:25px;
+}
+
+ul li{
+    margin-bottom:15px;
+}
+
+.tech{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.tech span{
+    background:#10243c;
+    padding:12px 20px;
+    border-radius:30px;
+    font-weight:600;
+}
+
+footer{
+    text-align:center;
+    padding:50px;
+    color:#cccccc;
+    border-top:1px solid rgba(255,255,255,.15);
+    margin-top:60px;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:2.2rem;
+}
+
+section h2{
+font-size:1.6rem;
+}
+
+.subtitle{
+font-size:1rem;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.buttons{
+flex-direction:column;
+align-items:center;
+}
+
+.btn{
+width:90%;
+text-align:center;
+}
+
+}
