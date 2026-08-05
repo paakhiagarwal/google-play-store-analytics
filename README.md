@@ -377,19 +377,19 @@ A dedicated second dashboard covering six internship-assigned analytical tasks, 
 <!-- Replace these placeholders with actual screenshot paths from /assets -->
 
 **Dashboard 1 — Core Analytics**
-```
+
 ![Dashboard 1](assets/dashboard1_preview.png)
-```
+
 
 **Dashboard 2 — Internship Tasks (Business Performance)**
-```
+
 ![Dashboard 2a](assets/dashboard2a_preview.png)
-```
+
 
 **Dashboard 2 — Internship Tasks (User Engagement & Growth)**
-```
+
 ![Dashboard 2b](assets/dashboard2b_preview.png)
-```
+
 
 ---
 
